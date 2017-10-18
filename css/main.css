@@ -5,48 +5,45 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
   background-color: #eee9de;
-  font-family: Lato, 'sans-serif';
+  font-family: Lato, sans-serif;
 }
 
 body {
-  margin: auto;
+  margin: .4em;
 }
 
 div {
   display: inline-block;
   width: 95%;
   max-width: 370px;
-  margin: 1.5em;
   text-align: left;
+  margin: .5rem;
 }
 
-div img {
+img {
   width: 95%;
+  display: inline-block;
 }
 
 h1 {
   display: block;
-  text-align: left;
 }
 
 section p {
   font-family: sans-serif;
   line-height: 1.5;
-  text-align: left;
 }
 
 section a {
   display: inline-block;
-  padding: 1em;
+  padding: .7em;
   border-radius: .5em;
   border: 3px solid #333;
-  margin-top: 1.5rem;
   color: #333;
   text-decoration: none;
 }
 
-section div .btn {
-  text-align: left;
+.btn {
   margin-left: 0;
 }
 
@@ -57,6 +54,7 @@ a:hover {
 }
 
 section {
+  vertical-align: middle;
   text-align: center;
   margin: 0;
   padding: 0;
