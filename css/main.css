@@ -4,49 +4,53 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
-  background-color: #eee9de;
-  font-family: Lato, sans-serif;
 }
 
 body {
-
-  margin: 3em .4em;
+  background-color: #eee9de;
+  font-family: Lato, sans-serif;
+  margin: 0;
 }
 
 div {
   display: inline-block;
-  width: 95%;
-  max-width: 380px;
+  text-align: center;
+  margin: 0;
+  vertical-align: middle;
+}
+
+.one {
+  display: inline-block;
+  text-align: center;
+  padding: 1em;
+  max-width: 25em;
+  margin-top: 1.5em;
+}
+
+.two {
+  display: inline-block;
+  max-width: 25em;
   text-align: left;
-  margin: .5em;
+  margin-top: 1.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-bottom: 1.5em;
+
 }
 
-img {
-  width: 99.5%;
-  display: block;
-}
-
-h2 {
-  display: block;
-}
-
-section p {
+.two p {
   font-family: sans-serif;
   line-height: 1.5;
   padding-top: 2em;
 }
 
-section a {
+.btn {
   display: inline-block;
   padding: .7em;
   border-radius: .5em;
   border: 3px solid #333;
   color: #333;
   text-decoration: none;
-}
-
-.btn {
-  margin-left: 0;
 }
 
 a:hover {
