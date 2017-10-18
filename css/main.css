@@ -9,13 +9,13 @@ html {
 }
 
 body {
-  margin: 3em ;
+  margin: .4em;
 }
 
 div {
   display: inline-block;
   width: 95%;
-  max-width: 370px;
+  max-width: 380px;
   text-align: left;
   margin: .5rem;
 }
