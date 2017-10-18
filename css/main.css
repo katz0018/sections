@@ -9,6 +9,7 @@ html {
 }
 
 body {
+
   margin: 3em .4em;
 }
 
@@ -17,7 +18,7 @@ div {
   width: 95%;
   max-width: 380px;
   text-align: left;
-  margin: .5rem;
+  margin: .5em;
 }
 
 img {
@@ -25,13 +26,14 @@ img {
   display: block;
 }
 
-h1 {
+h2 {
   display: block;
 }
 
 section p {
   font-family: sans-serif;
   line-height: 1.5;
+  padding-top: 2em;
 }
 
 section a {
