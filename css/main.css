@@ -8,8 +8,8 @@ html {
 
 body {
   background-color: #eee9de;
-  font-family: Lato, sans-serif;
   margin: 0;
+  font-family: Lato, sans-serif;
 }
 
 div {
@@ -25,6 +25,15 @@ div {
   padding: 1em;
   max-width: 25em;
   margin-top: 1.5em;
+  max-width:25em;
+}
+
+img {
+  display:block;
+  max-width:25em;
+  width: 100%;
+  padding-top: 5em;
+  padding-bottom: .4em;
 }
 
 .two {
@@ -35,13 +44,15 @@ div {
   padding-left: 1em;
   padding-right: 1em;
   margin-bottom: 1.5em;
-
+  max-width:25em;
 }
 
-.two p {
-  font-family: sans-serif;
+p {
+  font-family: Lato, sans-serif;
   line-height: 1.5;
-  padding-top: 2em;
+  padding-top: .75em;
+  margin-top: 1em;
+
 }
 
 .btn {
